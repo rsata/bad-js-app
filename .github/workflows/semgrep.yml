@@ -1,7 +1,7 @@
 on:
   workflow_dispatch: {}
   pull_request: {}
-  push:
+  push: # do all pushes?
     branches:
     - main
     - master
