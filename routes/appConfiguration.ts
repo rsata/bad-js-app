@@ -7,6 +7,7 @@ import config = require('config')
 import { Request, Response } from 'express'
 
 module.exports = function retrieveAppConfiguration () {
+  console.log('blaaa')
   return (_req: Request, res: Response) => {
     res.json({ config })
   }
