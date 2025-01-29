@@ -1,10 +1,7 @@
 on:
   workflow_dispatch: {}
   pull_request: {}
-  push: # do all pushes?
-    branches:
-    - main
-    - master
+  push:
     paths:
     - .github/workflows/semgrep.yml
   schedule:
